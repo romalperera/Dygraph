@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-graph-container {
+  width: 600px;
+  padding: 40px 60px;
+  height: 400px;
+}
+
+.App-graph-container > div{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.dygraph-label {
+  text-align: center;
+}
+
+.dygraph-label.dygraph-title {
+  padding-bottom: 20px;
+}
+
+.dygraph-label.dygraph-ylabel {
+  transform: rotateZ(270deg);
+}
+
+.dygraph-label.dygraph-xlabel {
+  margin-top: 5px;
+}
+
+.dygraph-legend {
+  position: absolute;
+  right: 0px !important;
+  left: auto !important;
+  padding: 5px;
+  background: #fff;
+}
+
+.App h1 {
+  font-weight: lighter;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-body {
+
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
